@@ -234,3 +234,139 @@
 }
 
 /* go to section done */
+
+
+
+
+
+/* Footer */
+
+#foot_1{
+    background-color: #CFF5E7;
+}
+.ashu_1{
+
+    display : flex !important;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin-bottom : 0px;
+   
+}
+.ashu_1 div{
+
+    margin : 71px;
+    width : 20%;
+}
+
+#foot_1 p{
+
+    font-size: 1rem !important;
+}
+
+@media screen and (max-width: 400px) {
+
+    .ashu_1{
+        margin-bottom : 0px;
+    }
+    .ashu_1 div{
+        margin : 23px;
+    }
+    #foot_1 p{
+        font-size: 0.5rem !important;
+    }
+    #foot_1 h3{
+        font-size: 1rem !important;
+    }
+}
+
+.ashu_2{
+
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top : 0px;
+
+}
+
+.ashu_2 div{
+
+    margin : 71px;
+    
+    width : 20%;
+}
+
+#foot_2 {
+
+    font-size: 1rem !important;
+    background-color: #D6E4E5;
+}
+
+@media screen and (max-width: 400px) {
+
+    .ashu_2{
+        margin-top : 0px;
+    }
+    .ashu_2 div{
+        margin : 23px;
+      
+    }
+    #foot_2 li{
+        font-size: 0.5rem !important;
+    }
+    #foot_2 h2{
+        font-size: 0.5rem !important;
+        position: relative;
+        left: 20px;
+    }
+}
+
+.lolo{
+
+    background-color: #EEF1FF;
+}
+
+
+.foot p {
+
+    text-align: center;
+    font-size: 1rem;
+    width :50%;
+    justify-content: center;
+    margin : 0 auto;
+}
+
+@media screen and (max-width: 400px){
+    
+    .foot p {
+
+        font-size: 0.6rem;
+        width : 100%;
+    
+    }
+    
+}
+
+.foot h6{
+    margin : 0 auto;
+    text-align: center;
+    font-size: 1rem;
+    width :50%;
+    justify-content: center;
+    margin : 0 auto;
+    color : grey;
+
+}
+
+@media screen and (max-width: 400px){
+    
+    .foot h6 {
+
+        font-size: 0.499rem;
+        width : 100%;
+    
+    }
+
+}
