@@ -1,3 +1,3 @@
 # Anime_sthan
 
-Just a Static website.
+Just a Static webpage.
