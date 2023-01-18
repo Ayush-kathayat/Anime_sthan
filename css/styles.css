@@ -529,8 +529,8 @@
 
   .figures img{
 
-    height: 150px;
-    width : 150px;
+    height: 300px;
+    width : 300px;
     margin : 10px;
   
   }
@@ -546,14 +546,13 @@
     width : 50%;
     text-align: center;
     justify-content: center;
-    position: relative;
-    left : 40px;
+
   
   }
   
   .figures h2{
   
-    font-size : 0.5rem;
+    font-size : 1rem;
     text-align : center;
   
   }
