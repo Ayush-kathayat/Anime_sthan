@@ -121,6 +121,8 @@
 
 .testimonials{
   background-color: #f5edce;
+  position: relative;
+  z-index: 1;
 }
 
 
@@ -349,6 +351,8 @@
 
 #foot_1{
     background-color: #CFF5E7;
+    position: relative;
+    z-index: 1;
 }
 .ashu_1{
 
@@ -408,6 +412,8 @@
 
     font-size: 1rem !important;
     background-color: #D6E4E5;
+    position: relative;
+    z-index: 1;
 }
 
 @media screen and (max-width: 400px) {
