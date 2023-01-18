@@ -103,8 +103,7 @@
   position: relative;
   left : 590px;
   padding-top: 50px;
-  border-top-left-radius: 30%;
-  border-bottom-right-radius: 30%;
+  border-radius: 50%;
 }
 
 .carousel-item p{
@@ -290,7 +289,7 @@
 
 
 
-#go_to_pdt h1{
+.pussy {
 
     font-size: 4rem;
     font-weight: bold;
@@ -313,7 +312,7 @@
         transition: 0.5s;
       }
     
-    #go_to_pdt h1:hover{
+    .pussy:hover{
     
         transform: scale(1.1);
         transition: 0.5s;
