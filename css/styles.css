@@ -81,6 +81,113 @@
 
 /* Navigation done */
 
+
+/* animation */
+
+
+/* animation done */
+
+
+
+.carousel-item{
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.carousel-item img{
+
+  height: 300px;
+  width: 300px; 
+  position: relative;
+  left : 590px;
+  padding-top: 50px;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+
+.carousel-item p{
+  font-size: 1rem;
+  font-family: IBMPlexMono;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  margin : 30px;
+  position: relative;
+  left : 590px;
+
+}
+/* testi start */
+
+.testimonials{
+  background-color: #f5edce;
+}
+
+
+@media screen and (min-width: 500px) {
+
+    .carousel-item:hover{
+    
+        transform: scale(1.1);
+        transition: 0.5s;
+        box-shadow: 10px 10px 100px 100px rgba(0, 0, 0, 0.8);
+        
+    }
+    
+}
+
+@media screen and (max-width : 400px){
+  
+      .carousel-item{
+          width: 200px;
+          height: 300px;
+          text-align: center;
+          justify-content: center;
+          margin: 0 auto;
+          position: relative;
+      }
+      .carousel-item img{
+      
+        height: 180px;
+        width: 150px; 
+        position: relative;
+        left : 100px;
+        padding-top: 50px;
+        border-top-left-radius: 30%;
+        border-bottom-right-radius: 30%;
+      }
+      
+      .carousel-item p{
+        font-size: 0.7rem;
+        font-family: IBMPlexMono;
+        color: black;
+        text-align: center;
+        margin : 50px;
+        position: absolute;
+        left : 50px;
+        top : 150px;
+        width: 200px;
+      
+      }
+      
+      .testimonials{
+
+        background-color: #f5edce;
+        width: 390px;
+        height: 300px;
+      }
+  
+}
+
+.img-container{
+  height: 800px;
+  width: 1200px;
+  position: relative;
+  float: left;
+}
+
+
 /* title */
 
 .title h1{
