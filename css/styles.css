@@ -370,3 +370,642 @@
     }
 
 }
+
+
+
+/* bag section */
+
+
+.bags{
+  display : flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bags img{
+
+  width : 300px;
+  height : 300px;
+  margin : 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 100px;
+  transition: 0.5s;
+
+}
+
+@media screen and (min-width: 500px) {
+
+  .bags img:hover{
+
+    transform: scale(1.1);
+    transition: 0.5s;
+  
+  }
+  
+
+  
+}
+
+.bags p{
+  
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: JosefinSans;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+  
+}
+
+.bags h2{
+
+  font-size : 1.5rem;
+  text-align : center;
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .bags img{
+
+    width : 150px;
+    height : 150px;
+    margin : 10px;
+  
+  }
+  
+  .bags p{
+  
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: JosefinSans;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  
+  }
+  
+  .bags h2{
+  
+    font-size : 1rem;
+    text-align : center;
+  
+  }
+  
+}
+  
+/* bag section done */
+
+
+
+/* fig section */
+
+
+
+.figures{
+
+  display : flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.figures div{
+
+  margin : 10px;
+  padding: 10px;
+
+}
+
+.figures img{
+
+  height: 300px;
+  width : 300px;
+  margin : 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 90px;
+}
+
+@media screen and (min-width: 500px) {
+
+  .figures img:hover{
+
+    transform: scale(1.1);
+    transition: 0.5s;
+  
+  }
+  
+}
+
+.figures p{
+  
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: JosefinSans;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width : 50%;
+    text-align: center;
+    justify-content: center;
+
+    position: relative;
+
+    left: 80px;
+  
+}
+
+.figures h2{
+
+  font-size : 0.8rem;
+  text-align : center;
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .figures img{
+
+    height: 150px;
+    width : 150px;
+    margin : 10px;
+  
+  }
+  
+  .figures p{
+  
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: JosefinSans;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width : 50%;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left : 40px;
+  
+  }
+  
+  .figures h2{
+  
+    font-size : 0.5rem;
+    text-align : center;
+  
+  }
+
+  .fig_6{
+
+    width : 100px;
+    height : 100px;
+  }
+  
+}
+
+/* fig end */
+
+
+/* lamp section  */
+
+.lamps {
+
+  display : flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.lamps img{
+
+  width : 250px;
+  height : 350px;
+  margin : 45px;
+  border-radius: 15px;
+  box-shadow: 0 0 100px;
+  transition: 0.5s;
+
+}
+
+.lamps p{
+  
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: JosefinSans;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+  
+}
+
+.lamps h2{
+
+  font-size : 1.5rem;
+  text-align : center;
+
+}
+
+@media screen and (min-width : 500px){
+
+  .lamps img:hover{
+
+    transform: scale(1.1);
+    transition: 0.5s;
+  
+  }
+  
+}
+
+@media  screen and (max-width : 400px) {
+
+  .lamps img{
+
+    width : 100px;
+    height : 150px;
+    margin : 45px;
+    border-radius: 15px;
+    box-shadow: 0 0 100px;
+    transition: 0.5s;
+  
+  }
+  
+  .lamps p{
+    
+      font-size: 0.6rem;
+      font-weight: bold;
+      font-family: JosefinSans;
+      color: #000;
+      margin-top: 10px;
+      margin-bottom: 0px;
+      text-align: center;
+    
+  }
+  
+  .lamps h2{
+  
+    font-size : 0.7rem;
+    text-align : center;
+  
+  }
+
+  
+}
+
+/* lamp section end */
+
+/* manga section start */
+
+.manga {
+
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.manga img{
+
+  width : 300px;
+  height : 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 100px;
+}
+
+
+
+.manga p{
+  
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: JosefinSans;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+  
+}
+
+.manga h2{
+  
+    font-size : 1.5rem;
+    text-align : center;
+  
+}
+
+@media screen and (min-width: 500px) {
+
+  .manga img:hover{
+
+    transform: scale(1.1);
+    transition: 0.5s;
+  
+  }
+
+  .manga div{
+  
+    margin : 10px;
+    padding: 10px;
+  
+}
+  
+}
+
+@media screen and (max-width : 400px){
+
+  .manga img{
+
+    width : 150px;
+    height : 150px;
+    border-radius: 15px;
+    box-shadow: 0 0 100px;
+  }
+  
+  .manga div{
+    
+      margin : 5px;
+      padding: 5px;
+    
+  }
+  
+  .manga p{
+    
+      font-size: 0.6rem;
+      font-weight: bold;
+      font-family: JosefinSans;
+      color: #000;
+      margin-top: 10px;
+      margin-bottom: 0px;
+      text-align: center;
+    
+  }
+  
+  .manga h2{
+    
+      font-size : 0.5rem;
+      text-align : center;
+    
+  }
+  
+  
+}
+
+/* manga section end */
+
+
+/* oversize tee section start */
+
+
+.oversize{
+
+  display : flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.oversize img{
+
+  width : 300px;
+  height : 400px;
+  border-radius: 15px;
+  box-shadow: 0 0 100px;
+  transition: 0.5s;
+  margin : 40px;
+}
+
+.oversize p{
+  
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: JosefinSans;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+  
+}
+
+.oversize h2{
+  
+    font-size : 1.5rem;
+    text-align : center;
+  
+}
+
+@media screen and (min-width : 500px){
+
+  .oversize img:hover{
+
+    transform: scale(1.1);
+    transition: 0.5s;
+  
+  }
+  
+  
+}
+
+@media screen and (max-width : 400px){
+
+  .oversize img{
+
+    width : 250px;
+    height : 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 100px;
+    transition: 0.5s;
+    margin : 40px;
+  
+  }
+  
+  .oversize p{
+    
+      font-size: 1rem;
+      font-weight: bold;
+      font-family: JosefinSans;
+      color: #000;
+      margin-top: 10px;
+      margin-bottom: 0px;
+      text-align: center;
+    
+  }
+  
+  .oversize h2{
+    
+      font-size : 0.8rem;
+      text-align : center;
+    
+  }
+  
+  
+}
+  
+/* oversize tee section end */
+
+/* stickers section start */
+
+.stickers {
+
+  display : flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.stickers img{
+
+  width : 300px;
+  height: 350px;
+  margin : 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 100px;
+}
+
+.stickers p{
+  
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: JosefinSans;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+  
+}
+
+.stickers h2{
+  
+    font-size : 1rem;
+    text-align : center;
+  
+}
+
+@media screen and (min-width : 500px){
+
+  .stickers img:hover{
+
+    transform: scale(1.1);
+    transition: 0.5s;
+  
+  }
+  
+}
+
+@media screen and (max-width : 400px){
+
+  .stickers img{
+    width : 100px;
+    height: 150px;
+  }
+
+  .stickers p{
+    
+      font-size: 0.9rem;
+      font-weight: bold;
+      font-family: JosefinSans;
+      color: #000;
+      margin-top: 10px;
+      margin-bottom: 0px;
+      text-align: center;
+    
+  }
+  .stickers h2{
+
+    font-size : 0.7rem;
+    text-align : center;
+  }
+  
+}
+
+/* stickers section :end */
+
+
+/* winterwear section start */
+
+.winterwear{
+
+  display : flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.winterwear img{
+
+  width : 350px;
+  height : 450px;
+  border-radius: 15px;
+  box-shadow: 0 0 100px;
+  margin : 40px;
+}
+
+.winterwear p{
+  
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: JosefinSans;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+
+.winterwear h2{
+  
+    font-size : 1rem;
+    text-align : center;
+  
+}
+
+@media screen and (min-width : 500px){
+
+  .winterwear img:hover{
+
+    transform: scale(1.1);
+    transition: 0.5s;
+  
+  }
+  
+}
+  
+@media screen and (max-width : 400px){
+
+  .winterwear img{
+
+    width : 300px;
+    height : 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 100px;
+    margin : 40px;
+  }
+  
+  .winterwear p{
+    
+      font-size: 0.8rem;
+      font-weight: bold;
+      font-family: JosefinSans;
+      color: #000;
+      margin-top: 10px;
+      margin-bottom: 0px;
+      text-align: center;
+  
+  }
+  
+  .winterwear h2{
+    
+      font-size : 0.5rem;
+      text-align : center;
+    
+  }
+
+
+  
+}
+
+/* oversize tee section end */
+
