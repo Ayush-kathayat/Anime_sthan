@@ -111,7 +111,7 @@
   .img-tits img{
 
     width: 96.125px;
-    height: 200px;
+    height: 210px;
   }
   
 }
@@ -267,8 +267,7 @@
 
     .title h1{
         font-size: 1rem;
-        margin : 50px;
-        padding: 10px;
+        margin : 5px;
         font-family: Cinzel Decorative;
         background-color: black;
         color: #f5f5f5;
