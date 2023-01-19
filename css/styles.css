@@ -150,13 +150,15 @@
       }
       .carousel-item img{
       
-        height: 180px;
+        height: 200px;
         width: 150px; 
         position: relative;
         left : 100px;
         padding-top: 50px;
-        border-top-left-radius: 30%;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
         border-bottom-right-radius: 30%;
+        border-bottom-left-radius: 30%;
       }
       
       .carousel-item p{
@@ -175,7 +177,7 @@
       .testimonials{
 
         background-color: #f5edce;
-        width: 388px;
+        width: 387.5px;
         height: 300px;
       }
   
